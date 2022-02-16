@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap" rel="stylesheet">
+
+    <style>
+        .container {
+            display: grid;
+            border: 2px solid #b3a9a9;
+            justify-content: right;
+            border-radius: 2px;
+            padding: 12px 2px;
+            border-left: 0px;
+            border-right: 0px;
+            position: sticky;
+            top: 0px;
+            background-color: white;
+        }
+
+        .code {
+            text-decoration: none;
+            text-align: left;
+        }
+
+        .bar {
+            text-decoration: none;
+            padding: 2px 12px;
+            color: #55251b;
+            font-family: 'Baloo 2', cursive;
+
+        }
+        .bar:hover{
+            color: rgb(212, 179, 179);
+            cursor: pointer;
+        }
+
+        .btn {
+            float: right;
+            padding: 0px 12px;
+            border-radius: 4px;
+            color: rgb(4 39 59);
+            font-family: 'Baloo 2', cursive;
+        }
+        .btn:hover{
+            color: rgb(141 150 162) ;
+            cursor: pointer;
+        }
+
+        .about {
+            /* border: 2px solid black; */
+            height: 62vh;
+
+
+        }
+
+        .about::before {
+            content: "";
+            background: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80) no-repeat center center/cover;
+            height: 54%;
+            width: 28%;
+            padding: 4px 9px;
+            justify-content: center;
+            float: right;
+            position: absolute;
+            z-index: -1;
+            margin: 9px 792px;
+            border-radius: 7px;
+        }
+
+        .me {
+            display: inline-block;
+            margin: 26px 141px;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        #me {
+            display: inline-block;
+
+            /* border: 2px solid red; */
+            width: 34%;
+            margin: 10px 138px;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        .btn1 {
+            display: flex;
+            padding: 4px 7px;
+            margin: 6px 139px;
+            justify-content: center;
+            text-align: center;
+            color:#052738;
+            border-radius: 4px;
+        }
+        .btn1:hover{
+            color: rgb(141 150 162) ;
+            cursor: pointer;
+        }
+
+        .Testimonial {
+            display: block;
+            text-align: center;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .asking {
+            display: flex;
+            /* border: 2px solid black; */
+            flex-direction: row;
+
+        }
+
+        .dev1 {
+            border: 2px solid grey;
+            width: 41%;
+            margin: 2px center;
+            margin: 16px 81px;
+            height: 282px;
+            border-radius: 10px;
+            background-color: #f2f1f1;
+            box-shadow: 3px 4px 8px;
+            
+        }
+
+            
+        
+        
+        #dev1 {
+            display: block;
+            text-align: center;
+            
+        }
+        
+        #dev2 {
+            display: block;
+            text-align: center;
+            
+        }
+        
+        .dev2 {
+            border: 2px solid grey;
+            width: 41%;
+            margin: 2px center;
+            margin: 16px 81px;
+            height: 282px;
+            border-radius: 10px;
+            background-color: #f2f1f1;
+            box-shadow: 3px 4px 8px;
+            
+        }
+        
+        #devpara1 {
+            display: block;
+            padding: 5px 19px;
+            font-size: 20px;
+            font-family: 'The Nautigal', cursive;
+            
+        }
+        
+        #devpara2 {
+            display: block;
+            padding: 5px 19px;
+            font-size: 20px ;
+            font-family: 'The Nautigal', cursive;
+            
+        }
+
+        .name {
+            margin: 0px 20px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 2px 2px;
+            margin: 18px 0px;
+            margin-bottom: 0px;
+            background-color: #f2f1f1;
+        }
+
+        .image {
+            display: flex;
+            height: 51px;
+            padding: 2px 2px;
+            margin: 2px 39px;
+            border: 2px solid black;
+            border-radius: 33px;
+        }
+
+        .codewithme {
+            display: flex;
+            padding: 2px 2px;
+            margin: 16px -25px;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+        .copyright {
+            display: flex;
+            margin: 18px 34px;
+            border: 2px solid #b3a9a9;
+            border-top: 0px;
+            border-bottom: 0px;
+            border-right: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- <div class="logo">
+            <a href="" class="code">Code With Me</a>
+        </div> -->
+        <nav class="navbar">
+            <ul>
+                <a href="" class="bar">Home</a>
+                <a href="contactform.html" class="bar">Contact</a>
+                <a href="aboutus.html" class="bar">About us</a>
+                <a href="" class="bar">Services</a>
+                <div class="btn">
+                    <button class="btn">Login</button>
+                </div>
+                <div class="btn">
+                    <button class="btn">SignUp</button>
+                </div>
+            </ul>
+        </nav>
+    </div>
+    <div class="about">
+        <div>
+            <h2 class="me">Code With Me</h2>
+        </div>
+        <div>
+            <p id="me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic distinctio amet laudantium id
+                laborum officiis, iusto reiciendis dolores non a, minima nemo necessitatibus exercitationem laboriosam
+                expedita, odio quo consequatur rem atque ea itaque eaque. Lorem ipsum, dolor sit amet consectetur
+                adipisicing elit. Voluptate animi explicabo exercitationem nulla impedit provident dolorem fugit,
+                architecto praesentium saepe
+                Sunt, iure quas.</p>
+        </div>
+        <div>
+            <button class="btn1">Explore</button>
+        </div>
+    </div>
+    <div class="Testimonial">
+        <h1>Testimonials</h1>
+    </div>
+    <div class="asking">
+        <div class="dev1">
+            <h2 id="dev1">Dev1</h2>
+            <p id="devpara1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid at dolorem nemo
+                dignissimos nam
+                excepturi nulla non? Porro, quaerat dolorem nemo maiores blanditiis, eum dicta rem fugiat aliquid in,
+                exercitationem ipsum tenetur id cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reprehenderit amet consequatur illum, dolorem, possimus quam iusto architecto minus quae velit expedita
+                maxime natus culpa similique labore consequuntur animi. A et deleniti repellat?</p>
+            <h4 class="name">Ash</h4>
+        </div>
+        <div class="dev2">
+            <h2 id="dev2">Dev2</h2>
+            <p id="devpara2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum at enim voluptatibus eum nam
+                autem mollitia,
+                fugit facere incidunt consequuntur illum officia earum praesentium iste consectetur dolores explicabo,
+                magnam cupiditate. Ducimus est beatae odio! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quas est voluptatem minima nostrum quo et fugit reprehenderit vero non nobis atque placeat aut, corrupti
+                temporibus animi architecto laudantium odio tempora consequuntur id modi tempore?</p>
+            <h4 class="name">Tin Tin Sharma</h4>
+        </div>
+    </div>
+    <footer class="footer">
+        <div>
+            <!-- <img src="https://images.unsplash.com/photo-1546146830-2cca9512c68e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80" alt="" class="image"> -->
+            <img src="https://images.unsplash.com/photo-1559336197-ded8aaa244bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+                alt="" class="image">
+        </div>
+        <div>
+            <span class="codewithme">Code With Me</span>
+        </div>
+        <div>
+            <p class="copyright">Copyright © 2022 CodeWithMe.com</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

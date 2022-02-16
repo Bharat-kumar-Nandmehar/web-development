@@ -1,0 +1,16 @@
+/* navbar */
+.navbar{
+    display: flex;
+    text-decoration: none;
+    border: 2px solid black;
+
+}
+.navbar li{
+      list-style: none;
+}
+.navbar li a{
+    display: flex;
+    text-decoration: none;
+    
+
+}

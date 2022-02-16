@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web development</title>
+    <style>
+        body {}
+
+        .nav {
+            position: sticky;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            /* background-color: rgb(169, 165, 159); */
+
+        }
+
+        .navbar a {
+            text-decoration: none;
+            padding: 0px 2px;
+            margin: 0px 15px;
+            color: rgb(0, 0, 0);
+
+        }
+
+        .navbar a:hover {
+            color: rgb(189, 189, 189);
+        }
+
+        #contact {
+            display: flex;
+            /* justify-content: center; */
+            padding: 28px 134px;
+            margin: 12px 23px;
+            font-size: 29px;
+        }
+
+        .ask {
+            display: flex;
+            padding: 0px 143px;
+            margin: 14px 6px;
+            font-weight: bold;
+        }
+
+        .img {
+            height: 231px;
+            padding: 14px 55px;
+            margin: 8px 119px;
+            margin-left: 17px;
+            border-radius: 100px;
+        }
+
+
+
+        .contact {
+            display: flex;
+            justify-content: center;
+            padding: 0px 111px;
+            float: right;
+        }
+
+        .contact input {
+            display: flex;
+            flex-direction: column;
+            padding: 8px 98px;
+            margin: 8px 1px;
+            border-radius:  12px;
+
+
+        }
+        .contact textarea{
+            display: flex;
+            flex-direction: column;
+            padding: 8px 62px;
+            margin: 8px 1px;
+            border-radius:  12px;
+
+
+        }
+
+        .btn {
+            padding: 2px 84px;
+            margin: 16px 84px;
+            display: flex;
+            justify-content: center;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <nav class="navbar">
+            <ul>
+                <a href="" class="navitems" target="_blank"> Home</a>
+                <a href="" class="navitems" target="_blank"> About</a>
+                <a href="" class="navitems" target="_blank"> Contact us</a>
+                <a href="" class="navitems" target="_blank"> Services</a>
+            </ul>
+        </nav>
+    </div>
+    </section>
+    <h3 id="contact">Contact Us</h3>
+    <p class="ask">Feel free to ask us Anything</p>
+    <img src="https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+        alt="" class="img">
+    <section class="contact">
+        <form action="php">
+            <label for="name">Name</label>
+            <input type="text" >
+            <label for="name">Email</label>
+            <input type="text" >
+            <label for="phone no">Phone no</label>
+            <input type="text" >
+            <label for="message">Message</label>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+            <button class="btn">Send Message</button>
+        </form>
+    </section>
+</body>
+
+</html>

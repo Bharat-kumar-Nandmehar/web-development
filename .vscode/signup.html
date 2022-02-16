@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <style>
+        body {
+            /* background: url("https://images.unsplash.com/photo-1631624215749-b10b3dd7bca7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80") no-repeat center center/cover;
+            height: 100%;
+            width: 100%; */
+
+        }
+
+        .container {
+            display: grid;
+            border: 2px solid #b3a9a9;
+            justify-content: right;
+            border-radius: 2px;
+            padding: 12px 2px;
+            border-left: 0px;
+            border-right: 0px;
+            position: sticky;
+            top: 0px;
+            background-color: white;
+        }
+
+        .code {
+            text-decoration: none;
+            text-align: left;
+        }
+
+        .bar {
+            text-decoration: none;
+            padding: 2px 12px;
+            color: #55251b;
+            font-family: 'Baloo 2', cursive;
+
+        }
+
+        .bar:hover {
+            color: rgb(212, 179, 179);
+            cursor: pointer;
+        }
+
+        .btn {
+            float: right;
+            padding: 0px 12px;
+            border-radius: 4px;
+            color: rgb(4 39 59);
+            font-family: 'Baloo 2', cursive;
+        }
+
+        .btn:hover {
+            color: rgb(141 150 162);
+            cursor: pointer;
+        }
+
+        .signup {
+            display: flex;
+            border: 2px solid black;
+            width: 30%;
+            height: 66vh;
+            margin: 3rem 52rem;
+            border-radius: 19px;
+        }
+        
+        .signup::before {
+            content: "";
+            background: url("")no-repeat center center/cover;
+            height: inherit;
+            width: inherit;
+            position: absolute;
+            z-index: -1;
+            opacity: 0.9;
+            
+        }
+        .signup:hover{
+            box-shadow: 3px 6px 9px grey;
+
+        }
+        #create{
+            display: block;
+            margin: 1rem 5rem;
+        }
+
+
+        .formofsignup form {
+            display: flex;
+            flex-direction: column;
+            margin: 34px 54px;
+        }
+
+        .formofsignup input {
+            padding: 6px 30px;
+            margin: 11px 29px;
+            border-radius: 2px;
+        }
+
+        .btnofsignup {
+            display: block;
+            padding: 7px 0px;
+            margin: 17px 32px;
+            border-radius: 4px;
+
+        }
+        .orlogin{
+            display: block;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- <div class="logo">
+            <a href="" class="code">Code With Me</a>
+        </div> -->
+        <nav class="navbar">
+            <ul>
+                <a href="" class="bar">Home</a>
+                <a href="contactform.html" class="bar">Contact</a>
+                <a href="aboutus.html" class="bar">About us</a>
+                <a href="" class="bar">Services</a>
+                <div class="btn">
+                    <button class="btn">Login</button>
+                </div>
+                <div class="btn">
+                    <button class="btn">SignUp</button>
+                </div>
+            </ul>
+        </nav>
+    </div>
+    <div class="signup">
+        <div class="formofsignup">
+            <div>
+                <h2 id="create">Create an Account</h2>
+            </div>
+            <form action="php">
+                <label for="name">Username:</label>
+                <input type="text" name="user" id="userinfo" placeholder="Enter your Username">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="emailnfo" placeholder="Enter your Email">
+                <label for="Password">Password:</label>
+                <input type="text" name="password" id="passinfo" placeholder="Enter your Password">
+                <button class="btnofsignup">Create Account</button>
+            </form>
+            <div>
+                <!-- <a href="/" class="orlogin">Or login</a> -->
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
